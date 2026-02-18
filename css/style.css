@@ -300,7 +300,7 @@ a, p {
 
 .hero-section {
     display: flex;
-    background-image: url('images/bonang-hero.jpg');
+    background-image: url('../images/bonang-hero.jpg');
     color: #ffffff;
     height: 48em;
     justify-content: space-between;
