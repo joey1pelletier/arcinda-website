@@ -355,8 +355,8 @@ a, p {
 
 @media (max-width: 600px) {
     .hero-video iframe {
-        width: 400px;
-        height: 225px;
+        width: 350px;
+        height: 197px;
     }
 }
 
@@ -450,8 +450,8 @@ a, p {
 
 @media (max-width: 600px) {
     .highlight-video iframe {
-        width: 400px;
-        height: 225px;
+        width: 350px;
+        height: 197px;
     }
 }
 
@@ -617,7 +617,7 @@ a, p {
 
 @media (max-width: 600px) {
     .join-image img {
-        width: 400px;
+        width: 3500px;
     }
 }
 
