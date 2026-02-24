@@ -14,13 +14,37 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Comfortaa", sans-serif;
 }
 
+h2 {
+    font-weight: 100;
+}
 
-a, p {
+a, p, li {
     font-family: "Poppins", sans-serif;
 }
 
 .subpage-h1 {
     font-size: 3em;
+    padding-top: 1em;
+}
+
+.subpage-h2 {
+    font-size: 2.5em;
+    max-width: fit-content;
+    padding-bottom: 0.25em;
+}
+
+.main-styling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 8.75em;
+}
+
+.heading-text-left {
+    border-bottom: 1px solid black;
+    max-width: fit-content;
 }
 
 /* HEADER AND NAV-BAR */
@@ -667,6 +691,110 @@ a, p {
         height: 15vw;
         width: auto;
     }
+}
+
+/* MEMBERS PAGE */
+
+.member-article {
+    display: flex;
+    padding-top: 8.75em;
+}
+
+.member-article p {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.heading-and-text {
+    padding-right: 5em;
+}
+
+.bio-image img {
+    width: 25vw;
+}
+
+@media (max-width: 950px) {
+
+    .main-styling {
+        padding-top: 6.2em;
+    }
+
+    .member-article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading-and-text {
+        padding-right: 0;
+    }
+
+    .bio-image img {
+        width: 50vw;
+    }
+    .heading-text-left {
+        margin: 0 auto;
+    }
+}
+
+/* ORGANIZATION PAGE */
+
+.organization-article {
+    display: flex;
+    padding-top: 8.75em;
+    padding-bottom: 8.75em;
+}
+
+.organization-article p {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.organization-image img {
+    width: 43vw;
+}
+
+.what-and-purpose {
+    display: flex;
+}
+
+.half p {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.half ul {
+    padding-left: 2em;
+}
+
+@media (max-width: 950px) {
+
+    .organization-article {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .organization-image {
+        margin: 0 auto;
+    }
+
+    .organization-image img {
+        width: 80vw;
+    }
+
+    .what-and-purpose {
+        flex-direction: column;
+    }
+
+    .half {
+        padding-top: 8.75em;
+    }
+}
+
+/* DONATION PAGE */
+
+.donation-text {
+    padding-top: 3.375em;
+    padding-bottom: 3.375em;
 }
 
 /* FOOTER */
