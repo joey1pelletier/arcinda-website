@@ -863,8 +863,14 @@ a, p, li {
         width: 320px;
         height: 180px;
     }
+
+    .video-row {
+        width: 90vw;
+        gap: 0.5em;
+    }
     .video-row p {
-        font-size: 12px;
+        font-size: 10px;
+        
         width: 20em;
         height: 6em;
     }
