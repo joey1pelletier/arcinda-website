@@ -141,3 +141,4 @@ video6.addEventListener('click', () => {
     video6.style.color = "#FFFFFF";
     prevVideo = video6;
 });
+

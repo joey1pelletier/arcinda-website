@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Comfortaa", sans-serif;
 }
 
-h2 {
+h2, h3 {
     font-weight: 100;
 }
 
@@ -878,6 +878,43 @@ a, p, li {
         font-size: 10px;
         width: 20em;
         height: 6em;
+    }
+}
+
+/* LEARN PAGE */
+
+.javanese-gamelan {
+    padding-top: 3.375em;
+}
+
+.gamelan-info p {
+    padding-top: 1.5em;
+}
+
+.gamelan-info ul {
+    padding-left: 2em;
+}
+
+.learn-image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 3.375em;
+}
+
+.learn-image-row img {
+    height: 10vw;
+    width: auto;
+}
+
+@media (max-width: 950px) {
+    .learn-image-row {
+        flex-direction: column;
+    }
+    .learn-image-row img {
+        height: 40vw;
+        width: auto;
     }
 }
 
