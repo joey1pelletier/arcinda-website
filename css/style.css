@@ -116,9 +116,11 @@ a, p, li, form, label, input, textarea {
     display: flex;
     justify-self: end;
     list-style-type: none;
+    align-items: center;
 }
 
 .social-icon {
+    padding-top: 0.4em;
     padding-right: 1.5em;
 }
 
@@ -253,6 +255,7 @@ a, p, li, form, label, input, textarea {
     .socials-donate-mobile {
         display: none;
         /* display: flex; */
+        align-items: center;
         justify-content: center;
         list-style-type: none;
         padding-top: 0.75em;
