@@ -7,6 +7,27 @@
     margin: 0;
 }
 
+/* SKIP TO MAIN */
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
 
 /* DEFAULT STYLING */
 
@@ -332,7 +353,7 @@ a, p, li, form, label, input, textarea {
 
 .hero-section {
     display: flex;
-    background-image: url('../images/bonang-hero.jpg');
+    background-image: url('../images/Arcinda2025-35.jpg');
     color: #ffffff;
     height: 48em;
     justify-content: space-between;
@@ -478,7 +499,7 @@ a, p, li, form, label, input, textarea {
 .text-video-or-img {
     display: flex;
     justify-content: space-between;
-    padding-top: 5em;
+    padding-top: 3.5em;
 }
 
 
@@ -547,6 +568,10 @@ a, p, li, form, label, input, textarea {
 
 .center-text p {
     padding-top: 3.375em;
+}
+
+.center-text a {
+    color: #000000;
 }
 
 .link-button a {
@@ -633,7 +658,6 @@ a, p, li, form, label, input, textarea {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 8.75em;
     padding-bottom: 8.75em;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -733,6 +757,10 @@ a, p, li, form, label, input, textarea {
     height: auto;
 }
 
+.image-row a {
+    color: #000000;
+}
+
 .seaview {
     display: flex;
     flex-direction: column;
@@ -783,7 +811,7 @@ a, p, li, form, label, input, textarea {
 }
 
 .bio-image img {
-    width: 25vw;
+    width: 20vw;
 }
 
 @media (max-width: 950px) {
@@ -802,7 +830,7 @@ a, p, li, form, label, input, textarea {
     }
 
     .bio-image img {
-        width: 50vw;
+        width: 45vw;
     }
     .heading-text-left {
         margin: 0 auto;
@@ -1077,7 +1105,7 @@ a, p, li, form, label, input, textarea {
     flex-direction: column;
     background-color: #500000;
     color: white;
-    height: 12.5em;
+    height: 10em;
     justify-content: center;
     align-items: center;
 }
