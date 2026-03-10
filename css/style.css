@@ -1105,9 +1105,13 @@ a, p, li, form, label, input, textarea {
     flex-direction: column;
     background-color: #500000;
     color: white;
-    height: 10em;
+    height: 8em;
     justify-content: center;
     align-items: center;
+}
+
+.footer a {
+    color: white;
 }
 
 .footer p {
