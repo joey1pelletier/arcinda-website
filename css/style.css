@@ -499,7 +499,7 @@ a, p, li, form, label, input, textarea {
 .text-video-or-img {
     display: flex;
     justify-content: space-between;
-    padding-top: 3.5em;
+    padding-top: 3.375em;
 }
 
 
@@ -1119,5 +1119,9 @@ a, p, li, form, label, input, textarea {
 }
 
 .footer p {
-    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
