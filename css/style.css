@@ -355,7 +355,7 @@ a, p, li, form, label, input, textarea {
     display: flex;
     background-image: url('../images/Arcinda2025-35.jpg');
     color: #ffffff;
-    height: 48em;
+    height: 55em;
     justify-content: space-between;
     align-items: center;
     background-repeat: no-repeat;
@@ -898,6 +898,10 @@ a, p, li, form, label, input, textarea {
     padding-bottom: 3.375em;
 }
 
+.donation-area {
+    padding-bottom: 6em;
+}
+
 /* MEDIA PAGE */
 
 .video-select {
@@ -1105,7 +1109,7 @@ a, p, li, form, label, input, textarea {
     flex-direction: column;
     background-color: #500000;
     color: white;
-    height: 8em;
+    height: 10em;
     justify-content: center;
     align-items: center;
 }
@@ -1115,5 +1119,5 @@ a, p, li, form, label, input, textarea {
 }
 
 .footer p {
-    padding: 0.5em;
+    padding: 1em;
 }
