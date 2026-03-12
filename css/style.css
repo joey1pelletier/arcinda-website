@@ -1011,6 +1011,7 @@ a, p, li, form, label, input, textarea {
 .learn-image-row img {
     height: 10vw;
     width: auto;
+    cursor: pointer;
 }
 
 @media (max-width: 950px) {
