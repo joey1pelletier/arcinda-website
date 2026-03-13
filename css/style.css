@@ -998,13 +998,13 @@ a, p, li, form, label, input, textarea {
 
 @media (max-width: 700px) {
     .video-container {
-        width: 320px;
-        height: 180px;
+        width: 374px;
+        height: 210px;
     }
 
     .video-container iframe {
-        width: 320px;
-        height: 180px;
+        width: 374px;
+        height: 210px;
     }
 
     .video-row {
