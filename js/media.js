@@ -86,8 +86,8 @@ let prevVideo;
 function changePrevColor() {
     for(let i = 0; i < 6; i++) {
         if(prevVideo === videoArray[i]) {
-            videoArray[i].style.backgroundColor = "#FFFFFF";
-            videoArray[i].style.color = "#000000";
+            videoArray[i].style.backgroundColor = "#B45A00";
+            videoArray[i].style.color = "#FFFFFF";
         }
     }
 }

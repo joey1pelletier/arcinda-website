@@ -148,11 +148,16 @@ a, p, li, form, label, input, textarea {
 .donate-button a {
     text-decoration: none;
     border: 1px solid black;
-    background-color: #B40000; 
+    background-color: #B40000;
+    border-radius: 8px; 
     transition: background-color 0.3s ease;
     color: white;
     font-weight: 700;
-    padding: 0.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    
 }
 
 .donate-button a:hover {
@@ -379,16 +384,20 @@ a, p, li, form, label, input, textarea {
 .hero-info {
     width: 40vw;
     padding-top: 2em;
-    padding-bottom: 1.25em;
+    padding-bottom: 1.75em;
 }
 
 .hero-button a {
     text-decoration: none;
     border: 1px solid black;
+    border-radius: 8px;
     background-color: #B45A00;
     color: white;
     font-weight: 700;
-    padding: 0.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
     transition: background-color 0.3s ease;
 }
 
@@ -577,10 +586,14 @@ a, p, li, form, label, input, textarea {
 .link-button a {
     text-decoration: none;
     border: 1px solid black;
+    border-radius: 8px;
     background-color: #B45A00;
     color: white;
     font-weight: 700;
-    padding: 0.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
     transition: background-color 0.3s ease;
 }
 
@@ -634,9 +647,13 @@ a, p, li, form, label, input, textarea {
 .more-info-button a {
     text-decoration: none;
     border: 1px solid black;
+    border-radius: 8px;
     color: white;
     font-weight: 700;
-    padding: 0.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .link-button {
@@ -665,16 +682,19 @@ a, p, li, form, label, input, textarea {
 
 .join-button {
     display: flex;
-    padding-top: 1.5em;
 }
 
 .join-button a {
     text-decoration: none;
     border: 1px solid black;
+    border-radius: 8px;
     background-color: #B45A00;
     color: white;
     font-weight: 700;
-    padding: 0.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
     transition: background-color 0.3s ease;
 }
 
@@ -937,7 +957,12 @@ a, p, li, form, label, input, textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 0.5px black solid;
+    background-color: #B45A00;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .video-container {
