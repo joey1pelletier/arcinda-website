@@ -337,6 +337,10 @@ a, p, li, form, label, input, textarea {
     section {
         padding-top: 6.2em;
     }
+    
+    .donate-button a {
+        border-radius: 0;
+    }
 }
 
 @media (min-width: 950px) {
@@ -987,6 +991,9 @@ a, p, li, form, label, input, textarea {
     .video-row p {
         font-size: 14px;
     }
+    .video-container-text {
+        width: 15em;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1102,6 +1109,11 @@ a, p, li, form, label, input, textarea {
     padding: 0.4em;
     margin-top: 2em;
     cursor: pointer;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8px;
 }
 
 @media (max-width: 1000px) {
